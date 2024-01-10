@@ -26,9 +26,8 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
       // Home Page
       {
         path: '',
-        component: TodoAddComponent
-        // redirectTo: '/todoList',
-        // pathMatch: 'full'
+        redirectTo: '/todoList',
+        pathMatch: 'full'
       },
       // 404 Page
       {
